@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://img.freepik.com/free-vector/abstract-line-logo-element-red-gradient-design-vector_53876-154278.jpg?w=740&t=st=1681141963~exp=1681142563~hmac=d31386cf1269831f33f6a659003dab9797afef0d9bd8ef7a252810fb4e497b8f",
+        "job_title": "Software Engineer",
+        "company_name": "Acme Corporation",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "job_type": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "Acme Corporation is seeking an experienced Software Engineer to join our team...",
+        "job_responsibilities": "- Develop high-quality software using best practices and design patterns Collaborate with cross-functional teams to define, design, and ship new features Continuously discover, evaluate, and implement new technologies to maximize development efficiency..",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "5+ years of experience in software engineering",
+        "contact_information": {
+            "phone": "(555) 123-4567",
+            "email": "jobs@acme.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/310/310703.png?w=740&t=st=1681142123~exp=1681142723~hmac=20cb750cd33c75b5c79759885ae6734d3d0d23de3c530400f5433fe3b0805089",
+        "job_title": "Product Manager",
+        "company_name": "XYZ Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "job_type": "Full-time",
+        "salary": "$100,000 - $130,000",
+        "job_description": "XYZ Inc. is looking for a talented Product Manager to lead our product team...",
+        "job_responsibilities": "- Define and prioritize product features and requirements Work closely with engineering, design, and other stakeholders to build and ship high-quality products Conduct market research and user interviews to inform product decisions..",
+        "educational_requirements": "Bachelor's degree in a relevant field",
+        "experiences": "3+ years of experience in product management",
+        "contact_information": {
+            "phone": "(555) 987-6543",
+            "email": "jobs@xyz.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://img.freepik.com/free-vector/kids-with-abc-letters_53876-40270.jpg?w=826&t=st=1681142166~exp=1681142766~hmac=855b2c7ddfa1a0420c0c424185198dd489dc684f92a2e47a465a297b030a97f1",
+        "job_title": "Data Scientist",
+        "company_name": "ABC Corp.",
+        "remote_or_onsite": "Remote",
+        "location": "Boston, MA",
+        "job_type": "Full-time",
+        "salary": "$130,000 - $160,000",
+        "job_description": "ABC Corp. is seeking a talented Data Scientist to help us solve complex data problems...",
+        "job_responsibilities": "- Build and maintain data pipelines and machine learning models Analyze large datasets to extract insights and drive decision-making Collaborate with cross-functional teams to develop and deploy data-driven solutions..",
+        "educational_requirements": "Master's or PhD in a relevant field",
+        "experiences": "5+ years of experience in data science",
+        "contact_information": {
+            "phone": "(555) 456-7890",
+            "email": "jobs@abc.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "hhttps://img.freepik.com/free-vector/technology-company-logo-template_1061-20.jpg?w=740&t=st=1681142341~exp=1681142941~hmac=2f39aa17685a66432a4ef5907e3718f8314fb9fd39836bf77ff616c1b39644b8",
+        "job_title": "Frontend Developer",
+        "company_name": "Tech Solutions",
+        "remote_or_onsite": "Onsite",
+        "location": "San Diego, CA",
+        "job_type": "Full-time",
+        "salary": "$90,000 - $120,000",
+        "job_description": "Tech Solutions is seeking a talented Frontend Developer to join our growing team...",
+        "job_responsibilities": "- Develop and maintain web applications using modern frontend technologies Collaborate with designers and backend developers to implement features and improve the user experience Write clean, maintainable code and ensure high code quality..",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of experience in frontend development",
+        "contact_information": {
+            "phone": "(555) 123-4567",
+            "email": "jobs@techsolutions.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://img.freepik.com/premium-vector/initial-letter-c-o-linked-logo-symbol-blue-gradient-circular-rounded-infinity-style_252051-2990.jpg?w=826",
+        "job_title": "Product Designer",
+        "company_name": "Design Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "job_type": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "Design Co. is seeking a talented Product Designer to join our team...",
+        "job_responsibilities": "- Design and develop engaging user interfaces for web and mobile applications Collaborate with product managers, developers, and other stakeholders to define and implement product features Conduct user research and usability testing to inform design decisions..",
+        "educational_requirements": "Bachelor's degree in Design or related field",
+        "experiences": "3+ years of experience in product design",
+        "contact_information": {
+            "phone": "(555) 987-6543",
+            "email": "jobs@designco.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/300/300221.png?w=740&t=st=1681142505~exp=1681143105~hmac=0b9f960f2979bae146e00bf7382704458890b4592b0a341a24aa9257db60c24b",
+        "job_title": "Sales Manager",
+        "company_name": "Google",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "job_type": "Full-time",
+        "salary": "$100,000 - $130,000",
+        "job_description": "Google is seeking a talented Sales Manager to help us grow our business...",
+        "job_responsibilities": "- Develop and implement sales strategies to meet revenue targets Build and manage a high-performing sales team- Establish and maintain relationships with key clients and partners...",
+        "educational_requirements": "Bachelor's degree in Business Administration or related field",
+        "experiences": "5+ years of experience in sales",
+        "contact_information": {
+            "phone": "(555) 456-7890",
+            "email": "jobs@abc.com"
+        }
+    }
+]
