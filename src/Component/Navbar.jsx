@@ -18,7 +18,7 @@ const Navbar = () => {
                             <Link to='blogs'>Blogs</Link>
                         </ul>
                     </div>
-                    <Link to='/' className=" normal-case text-lg lg:text-xl font-bold">Career <span className='text-green-500'>Connect</span></Link>
+                    <Link to='/' className=" normal-case text-lg lg:text-xl font-bold">Career <span className='bg-gradient-to-r  from-emerald-500 to-green-500 text-transparent bg-clip-text'>Connect</span></Link>
                 </div>
                 <nav className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-10 gap-10">
@@ -29,7 +29,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <div className="navbar-end">
-                    <a className="btn btn-primary">Start Applying</a>
+                    <a className="btn border-none bg-gradient-to-r  from-emerald-500 to-green-500">Start Applying</a>
                 </div>
             </div>
 
