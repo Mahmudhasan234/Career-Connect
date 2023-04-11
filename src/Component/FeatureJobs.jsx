@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import IndividualJobs from './IndividualJobs';
-import IndividualJobDetails from './IndividualJobDetails';
+
 
 const FeatureJobs = () => {
 

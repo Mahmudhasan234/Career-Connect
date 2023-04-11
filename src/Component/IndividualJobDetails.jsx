@@ -4,7 +4,9 @@ import Lottie from "lottie-react";
 import animation from '../assets/138485-3d-website-launch.json'
 import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 import { useLoaderData, useParams } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 const IndividualJobDetails = ({ params }) => {
     const jobs = useLoaderData()
     const jobId = useParams(params)
@@ -21,24 +23,41 @@ const IndividualJobDetails = ({ params }) => {
     // console.log(JobIdNumber)
     // console.log(jobs)
 
-    const handleApplyJob=(id=>{
-        const appliedjobs = {
-            id: id,
-            applied: true,
-        }
+    const handleApplyJob=( (id, company_logo, job_title, company_name, job_type, location, salary) =>{
+       const appliedJobsDetails = {id,company_logo,job_title, company_name, job_type,location,salary};
+
+       
         let alreadyApplied =[];
         const previouslyApplied= JSON.parse(localStorage.getItem('appliedjobs'));
-        console.log(previouslyApplied)
+        // console.log(previouslyApplied)
         if(previouslyApplied){
-            console.log('applied')
+           if(previouslyApplied.find(jobId=>jobId.id===id)){
+           toast.warn('You Have Already Applied', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,  
+            theme: "light",
+            });
+            return;}
+            alreadyApplied.push(...previouslyApplied,appliedJobsDetails)
+          localStorage.setItem('appliedjobs', JSON.stringify(alreadyApplied));
+
         }
         else{
-          alreadyApplied.push(appliedjobs)
+          alreadyApplied.push(appliedJobsDetails)
           localStorage.setItem('appliedjobs', JSON.stringify(alreadyApplied));
         }
     })
     return (
         <div>
+
+            {/* react toastify */}
+            <ToastContainer />
+
+
             <div className='lg:px-28 my-2 lg:my-5 lg:mb-20'>
                 {/* Job Details Header Section */}
 
@@ -107,7 +126,7 @@ const IndividualJobDetails = ({ params }) => {
                                 </div>
                                 <br />
                             </div>
-                                <button onClick={()=>handleApplyJob(job.id)} className='btn btn-warning w-full  mb-5 text-white font-bold'>Apply Now</button>
+                                <button onClick={()=>handleApplyJob(job.id, job.company_logo, job.job_title, job.company_name, job.job_type, job.location, job.salary)} className='btn btn-warning w-full  mb-5 text-white font-bold'>Apply Now</button>
                         </div>
                     </div>
                 </section>

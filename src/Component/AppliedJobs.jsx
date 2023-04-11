@@ -1,9 +1,22 @@
 import React from 'react';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const AppliedJobs = () => {
+    const jobs = useLoaderData()
+    console.log(jobs)
+    const appliedjobs = JSON.parse(localStorage.getItem('appliedjobs'));
+   console.log(appliedjobs)
+
+    // const AppliedJobsId = 
+    // console.log(AppliedJobsId)
+    // console.log(appieldjob)
+
     return (
         <div>
-            <h1>THis is my Applied JObs</h1>
+ 
+    
+
+
         </div>
     );
 };
