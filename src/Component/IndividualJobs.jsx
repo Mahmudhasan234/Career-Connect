@@ -25,4 +25,4 @@ const IndividualJobs = ({ job}) => {
     );
 };
 
-export default IndividualJobs; <h1>my jobs</h1>
+export default IndividualJobs;

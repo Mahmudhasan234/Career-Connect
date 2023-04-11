@@ -29,7 +29,7 @@ const FeatureJobs = () => {
                    
                 </div>
                 <div>
-                <button className=' mt-20 w-64 border-none btn bg-gradient-to-r from-emerald-500 to-green-500'> See All Jobs</button>
+                <button className=' mt-20 lg:w-64 border-none btn bg-gradient-to-r from-emerald-500 to-green-500'> See All Jobs</button>
                 </div>
             </div>
         </div>
