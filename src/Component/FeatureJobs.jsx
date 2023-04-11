@@ -5,6 +5,10 @@ import IndividualJobs from './IndividualJobs';
 const FeatureJobs = () => {
 
     const[featureJobs, setFeatureJobs]= useState([]);
+const [showAllJobs, setShowAllJobs] = useState(false);
+const handleShowAllJobs = ()=>{
+    setShowAllJobs(true);
+}
     useEffect(()=>{
         fetch('featureJobs.json')
         .then(res=>res.json())
@@ -22,14 +26,14 @@ const FeatureJobs = () => {
             </div>
                 <div className='lg:grid lg:grid-cols-2 gap-52'>
                 {
-                    featureJobs.map(job=><IndividualJobs key={job.id} 
+                    featureJobs.slice(0,showAllJobs? 6:4 ).map(job=><IndividualJobs key={job.id} 
                     job={job}
                    ></IndividualJobs>)
                 }
                    
                 </div>
                 <div>
-                <button className=' mt-20 lg:w-64 border-none btn bg-gradient-to-r from-emerald-500 to-green-500'> See All Jobs</button>
+                <button onClick={handleShowAllJobs} className=' mt-20 lg:w-64 border-none btn bg-gradient-to-r from-emerald-500 to-green-500'> See All Jobs</button>
                 </div>
             </div>
         </div>

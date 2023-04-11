@@ -46,7 +46,16 @@ const IndividualJobDetails = ({ params }) => {
           localStorage.setItem('appliedjobs', JSON.stringify(alreadyApplied));
 
         }
-        else{
+        else{ 
+            toast.success('You have Applied Successfully', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,  
+                theme: "light",
+                });
           alreadyApplied.push(appliedJobsDetails)
           localStorage.setItem('appliedjobs', JSON.stringify(alreadyApplied));
         }
