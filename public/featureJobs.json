@@ -12,10 +12,10 @@
         "job_responsibilities": "- Develop high-quality software using best practices and design patterns Collaborate with cross-functional teams to define, design, and ship new features Continuously discover, evaluate, and implement new technologies to maximize development efficiency.",
         "educational_requirements": "Bachelor's degree in Computer Science or related field",
         "experiences": "5+ years of experience in software engineering",
-        "contact_information": {
+        
             "phone": "(555) 123-4567",
             "email": "jobs@acme.com"
-        }
+        
     },
     {
         "id": 2,
@@ -30,10 +30,10 @@
         "job_responsibilities": "- Define and prioritize product features and requirements Work closely with engineering, design, and other stakeholders to build and ship high-quality products Conduct market research and user interviews to inform product decisions.",
         "educational_requirements": "Bachelor's degree in a relevant field",
         "experiences": "3+ years of experience in product management",
-        "contact_information": {
+        
             "phone": "(555) 987-6543",
             "email": "jobs@xyz.com"
-        }
+        
     },
     {
         "id": 3,
@@ -48,10 +48,10 @@
         "job_responsibilities": "- Build and maintain data pipelines and machine learning models Analyze large datasets to extract insights and drive decision-making Collaborate with cross-functional teams to develop and deploy data-driven solutions.",
         "educational_requirements": "Master's or PhD in a relevant field",
         "experiences": "5+ years of experience in data science",
-        "contact_information": {
+        
             "phone": "(555) 456-7890",
             "email": "jobs@abc.com"
-        }
+        
     },
     {
         "id": 4,
@@ -66,10 +66,10 @@
         "job_responsibilities": "- Develop and maintain web applications using modern frontend technologies Collaborate with designers and backend developers to implement features and improve the user experience Write clean, maintainable code and ensure high code quality.",
         "educational_requirements": "Bachelor's degree in Computer Science or related field",
         "experiences": "3+ years of experience in frontend development",
-        "contact_information": {
+        
             "phone": "(555) 123-4567",
             "email": "jobs@techsolutions.com"
-        }
+        
     },
     {
         "id": 5,
@@ -84,10 +84,10 @@
         "job_responsibilities": "- Design and develop engaging user interfaces for web and mobile applications Collaborate with product managers, developers, and other stakeholders to define and implement product features Conduct user research and usability testing to inform design decisions.",
         "educational_requirements": "Bachelor's degree in Design or related field",
         "experiences": "3+ years of experience in product design",
-        "contact_information": {
+        
             "phone": "(555) 987-6543",
             "email": "jobs@designco.com"
-        }
+        
     },
     {
         "id": 6,
@@ -102,9 +102,9 @@
         "job_responsibilities": "- Develop and implement sales strategies to meet revenue targets Build and manage a high-performing sales team- Establish and maintain relationships with key clients and partners.",
         "educational_requirements": "Bachelor's degree in Business Administration or related field",
         "experiences": "5+ years of experience in sales",
-        "contact_information": {
+        
             "phone": "(555) 456-7890",
             "email": "jobs@abc.com"
-        }
+        
     }
 ]
