@@ -55,7 +55,7 @@
     },
     {
         "id": 4,
-        "company_logo": "hhttps://img.freepik.com/free-vector/technology-company-logo-template_1061-20.jpg?w=740&t=st=1681142341~exp=1681142941~hmac=2f39aa17685a66432a4ef5907e3718f8314fb9fd39836bf77ff616c1b39644b8",
+        "company_logo": "https://img.freepik.com/free-vector/technology-company-logo-template_1061-20.jpg?w=740&t=st=1681142341~exp=1681142941~hmac=2f39aa17685a66432a4ef5907e3718f8314fb9fd39836bf77ff616c1b39644b8",
         "job_title": "Frontend Developer",
         "company_name": "Tech Solutions",
         "remote_or_onsite": "Onsite",

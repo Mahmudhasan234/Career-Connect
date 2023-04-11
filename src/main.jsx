@@ -11,6 +11,7 @@ import Statistics from './Component/Statistics';
 import AppliedJobs from './Component/AppliedJobs';
 import Blogs from './Component/Blogs';
 import App from './App';
+import IndividualJobDetails from './Component/IndividualJobDetails';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'appliedjobs',
         element: <AppliedJobs></AppliedJobs>
+      },
+      {
+         path: '/:id',
+         element: <IndividualJobDetails></IndividualJobDetails>
       },
       {
         path: 'blogs',

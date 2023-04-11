@@ -20,7 +20,7 @@ const Navbar = () => {
                     </div>
                     <Link to='/' className=" normal-case text-lg lg:text-xl font-bold">Career <span className='bg-gradient-to-r  from-emerald-500 to-green-500 text-transparent bg-clip-text'>Connect</span></Link>
                 </div>
-                <nav className="navbar-center hidden lg:flex ">
+                <nav className="navbar-center hidden lg:flex font-semibold">
                     <ul className="menu menu-horizontal px-10 gap-10">
                         <NavLink className= { ({ isActive }) => (isActive ? 'text-green-500 font-bold' : '')} to='/'> Home</NavLink>
                         <NavLink className= { ({ isActive }) => (isActive ? 'text-green-500 font-bold' : '')} to='statistics'> Statistics</NavLink>
