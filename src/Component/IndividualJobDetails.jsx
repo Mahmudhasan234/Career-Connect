@@ -23,8 +23,8 @@ const IndividualJobDetails = ({ params }) => {
     // console.log(JobIdNumber)
     // console.log(jobs)
 
-    const handleApplyJob=( (id, company_logo, job_title, company_name, job_type, location, salary) =>{
-       const appliedJobsDetails = {id,company_logo,job_title, company_name, job_type,location,salary};
+    const handleApplyJob=( (id, remote_or_onsite, company_logo, job_title, company_name, job_type, location, salary) =>{
+       const appliedJobsDetails = {id, remote_or_onsite, company_logo,job_title, company_name, job_type,location,salary};
 
        
         let alreadyApplied =[];
@@ -135,7 +135,7 @@ const IndividualJobDetails = ({ params }) => {
                                 </div>
                                 <br />
                             </div>
-                                <button onClick={()=>handleApplyJob(job.id, job.company_logo, job.job_title, job.company_name, job.job_type, job.location, job.salary)} className='btn btn-warning w-full  mb-5 text-white font-bold'>Apply Now</button>
+                                <button onClick={()=>handleApplyJob(job.id, job.remote_or_onsite, job.company_logo, job.job_title, job.company_name, job.job_type, job.location, job.salary)} className='btn btn-warning w-full  mb-5 text-white font-bold'>Apply Now</button>
                         </div>
                     </div>
                 </section>
